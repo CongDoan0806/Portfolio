@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -125,102 +125,52 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Full Stack Developer Intern",
+    companyName: "NAB Innovation Centre Vietnam",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#E6DEDD",
+    date: "Jun 2025 - Aug 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained front-end features using React.js in an enterprise-scale environment.",
+      "Implemented responsive UI following business requirements and NAB internal design system.",
+      "Participated in weekly meetings with Australian clients to discuss project progress, gather feedback, and validate requirements.",
+      "Conducted accessibility testing to ensure compliance with NAB standards.",
+      "Produced technical documentation to support development and testing processes.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Full Stack Developer Intern",
+    companyName: "Enosta Group",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2024 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in full-stack development using React.js and Express.js.",
+      "Designed and implemented user interfaces with reusable components.",
+      "Developed and maintained RESTful APIs supporting core system features.",
+      "Collaborated in system design discussions, including database structure and application flow.",
     ],
   },
 ];
 
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials: TTestimonial[] = [];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Internal Project – NAB",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Enterprise React.js project at NAB Innovation Centre Vietnam. Designed responsive UI aligned with business requirements, built reusable components and custom hooks, wrote unit tests with Jest, and performed accessibility testing.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "jest",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "accessibility",
         color: "pink-text-gradient",
       },
     ],
@@ -228,20 +178,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "EduGrow",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full-stack education platform built with Laravel and React.js. Designed UI/UX in Figma, built secure authentication APIs, developed RESTful APIs for core features, and integrated Cloudinary for cloud-based image storage.",
     tags: [
       {
-        name: "react",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "cloudinary",
         color: "pink-text-gradient",
       },
     ],
@@ -249,20 +199,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "FlashUp",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Full-stack web app built with Express.js and React.js. Integrated Gemini AI for dynamic story generation, Firebase for real-time notifications, and optimized system architecture for performance and scalability.",
     tags: [
       {
-        name: "nextjs",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "gemini-ai",
         color: "pink-text-gradient",
       },
     ],

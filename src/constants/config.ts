@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Công Đoàn — Software Engineer",
+    fullName: "Công Đoàn",
+    email: "doan.tran26@student.passerellesnumeriques.org",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Công Đoàn",
+    p: ["I build scalable back-end systems", "and modern web & mobile applications"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I have built a solid technical foundation through academic learning and real-world projects, gaining experience in developing scalable systems using Java (Spring Boot), PHP (Laravel), and JavaScript (Express.js), as well as proficiency in writing RESTful APIs and React Native. My project work and internship at NAB (National Australia Bank) further strengthened my mindset around clean architecture, code quality, and practical problem-solving. I am eager to apply my skills, learn from experienced engineers, and grow my career as a full-stack developer in a professional environment.`,
     },
     experience: {
       p: "What I have done so far",
